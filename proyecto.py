@@ -27,12 +27,11 @@ child = input("Children’s Song: ")
 adj = input("Adjective: ")
 
 print("""Lets have fun now ;) 
-That's what you've created.""")
+That's what you've created: """)
 
 
 print(f"""
-
-DETECTIVE: Hello. I’m Detective {male}. And, you are…
+2DETECTIVE: Hello. I’m Detective {male}. And, you are…
 SUSPECT: {teacher}  
 DETECTIVE: You are here today under suspicion of second degree robbery.
 SUSPECT: {exc}!  
@@ -42,26 +41,14 @@ DETECTIVE: Where were you on the night of {hol}?
 SUSPECT: I was with {celeb}. We were watching the movie {movie}.
 DETECTIVE: Then why does security camera footage show you {ending} just {dist} away from the crime scene?
 SUSPECT: That’s a coincidence.
-DETECTIVE: Alright, I’m through playing games. Where are you from?SUSPECT: {count}.
+DETECTIVE: Alright, I’m through playing games. Where are you from?
+SUSPECT: {count}.
 DETECTIVE: What did your parents do for a living?
 SUSPECT: My father was a {obj} salesman and my mother was a {occ}.
 DETECTIVE: Did they teach you to steal?
 SUSPECT: No. I told you didn’t do it!
-DETECTIVE: That’s enough! One of the best parts about being a detective is that I get to lock up criminals like you, and go home to my children and my pet [Animal] and say, [Famous Movie Quote].
+DETECTIVE: That’s enough! One of the best parts about being a detective is that I get to lock up criminals like you, and go home to my children and my pet {ani} and say, {movie}.
 SUSPECT: Fine, I did it. I committed the robbery. But I only did it because I needed the money to buy myself {body2} implants.
 DETECTIVE: I knew it all along. And every time I solve a crime, I sing my favorite song, {child}
-
 SUSPECT: You have a {adj} voice.
 (BEAT) """)
-
-
-
-
-
-
-
-
-
-
-
-
